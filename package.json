@@ -1,0 +1,22 @@
+{
+  "name": "Zendesk Data App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node src/app.js",
+    "build": "babel src -d lib",
+    "test": "hehehe, you funny"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.0.5",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
